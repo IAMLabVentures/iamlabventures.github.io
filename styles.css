@@ -1,0 +1,44 @@
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+body {
+	color: black;
+	background-color: white;
+	font-family: 'Roboto', Arial, sans-serif;
+	/*display: flex;
+	flex-direction: column;*/
+}
+
+.logo {
+	margin: 1.5em;
+}
+
+.letter {
+	width: 85%;
+	margin: 1.5em;
+	font-size: 1.125em;
+	color: #515151;
+	line-height: 1.28;
+}
+
+.letter h1 {
+	color: #2D2D2D;
+	font-size: 1.25em;
+}
+
+.letter .follow .icon {
+	width: 2.5em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  
+  .letter {
+  	width: 50%;
+  	font-size: 1.125em;
+  }
+}
